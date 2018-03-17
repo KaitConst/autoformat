@@ -2,7 +2,7 @@ FROM centos
 
 MAINTAINER yaolin
 
-ADD hello.txt hello.txt
+ADD src/hello.txt hello.txt
  
 EXPOSE 8080
 
