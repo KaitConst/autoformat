@@ -6,4 +6,4 @@ ADD src/hello.txt hello.txt
  
 EXPOSE 9200
 
-ENTRYPOINT ["cat","hello.txt"]
+ENTRYPOINT ["elasticsearch","-d"]
