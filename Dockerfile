@@ -1,9 +1,9 @@
-FROM centos
+FROM elasticsearch
 
 MAINTAINER yaolin
 
 ADD src/hello.txt hello.txt
  
-EXPOSE 8080
+EXPOSE 9200
 
 ENTRYPOINT ["cat","hello.txt"]
